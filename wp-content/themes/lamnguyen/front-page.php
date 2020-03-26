@@ -26,12 +26,17 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
+                        <?php 
+                            $content = get_field('content');
+                            if($content):
+                        ?>
                         <div class="header-text">
-                            <h1>We are Startup Creative Agency</h1>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.</p>
+                            <h1><?=$content['header-text']?></h1>
+                            <p><?=$content['header-p']?></p>
                         </div>
-                        <div class="button"> <a class="btn-main" href="#">Get Started</a> </div>
+                        <div class="button"> <a class="btn-main" href="<?=$content['header-url']?>">Bắt đầu</a> </div>
                         <div class="play"> <a class="play-i" href="https://www.youtube.com/watch?v=WBAhElwHNNk&amp;t=2s" data-lity><i class="fas fa-play"></i></a> </div>
+                        <?php endif ?>
                     </div>
                 </div>
             </div>
