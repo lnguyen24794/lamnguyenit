@@ -434,16 +434,13 @@
             </div>
         </div>
     </section>
-    <section class="subscribe section-padding">
-        <div class="container subscribe-content">
+    <section class="subscribe section-padding" id="lien-he">
+        <div class="container subscribe-content" >
             <div class="col-lg-5 col-md-5 col-sm-8 col-xs-12">
                 <div class="footer-title">
-                    <h3>Subscribe to our Newsletter</h3> </div>
+                    <h3>Liên hệ</h3> </div>
                 <form action="#">
-                    <div class="email">
-                        <input type="email" name="email" placeholder="Your email address">
-                        <button type="submit"><i class="fas fa-chevron-right" aria-hidden="true"></i></button>
-                    </div>
+                    <?php echo do_shortcode('[contact-form-7 id="1234" title="Contact form 1"]' ) ?>
                 </form>
             </div>
         </div>

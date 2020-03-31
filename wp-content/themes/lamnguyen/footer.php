@@ -4,7 +4,9 @@
                 <div class="lamnguyenit col-lg-4 col-md-4 col-sm-3 col-xs-12">
                     <div class="footer-img"> <img src="<?=get_template_directory_uri()?>/img/logo/logo.png" alt="logo"> </div>
                     <div class="footer-text">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .</p>
+                        <article class="post-content"><p>Đến với <a href="https://www.zota.vn/" data-original-title="" title="">dịch vụ thiết kế web</a> của chúng tôi bạn không cần lo lắng phải tạo ra một website như thế nào? Quản lý website làm sao cho hiệu quả? Làm thế nào bạn kinh doanh hiệu quả khi đã có website?</p>
+<p>Bạn không cần quá lo lắng về vấn đề này, tại đây bạn sẽ được nhân viên marketing chuyên nghiệp của chúng tôi tư vấn, hướng dẫn các chiến lược kinh doanh online, cách tiếp xúc và giữ chân khách hàng lâu bền nhằm đảm bảo đạt được những hiệu quả tốt nhất.</p>
+<p>Ngoài việc tư vấn hướng phát triển chúng tôi sẽ luôn đồng hành cùng khách hàng. Nếu bạn gặp bất cứ trục trặc kỹ thuật hay sai sót khi vận hành website, nhân viên kỹ thuật ...</p></article>
                     </div>
                     <div class="social">
                         <ul>
@@ -55,7 +57,7 @@
                         <h3>Talk to us</h3> </div>
                     <div class="footer-link">
                         <ul>
-                            <li><a href="#"><i class="far fa-envelope"></i><span class="__cf_email__" data-cfemail="670f021e270609010609004904080a">[email&#160;protected]</span></a></li>
+
                             <li><a href="#"><i class="fas fa-external-link-alt"></i>lamnguyenit.com</a></li>
                         </ul>
                     </div>
@@ -64,7 +66,7 @@
         </div>
         <div class="copy">
             <div class="container">
-                <p>Copyright © 2018 All Rights Reserved / YasirKareem</p>
+                <p>Copyright © 2019 All Rights Reserved </p>
             </div>
         </div>
     </footer>
